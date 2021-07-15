@@ -35,6 +35,10 @@ nav a{
   padding-right: 10px;
 }
 
+.mobile-nav{
+  display: none;
+}
+
 /* Banner */
 .banner{
   background-color: #2D25A0;
@@ -181,6 +185,19 @@ footer{
   nav{
     display: none;
   }
+  .mobile-nav{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-nav i{
+    color: #fff;
+  }
+  .mobile-nav .btn{
+    padding: 5px 15px;
+    font-size: 0.8em;
+  }
   /* Banner Section */
   .banner-informations{
     grid-template-columns: 1fr;
@@ -228,3 +245,5 @@ footer{
     width: 95%;
   }
 }
+
+
